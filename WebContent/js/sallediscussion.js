@@ -1,0 +1,30 @@
+jQuery(document).ready(function(){
+	jQuery("#salleDiscussion_fini").hide();
+	jQuery("#salleDiscussion_nonCommencee").hide();
+	jQuery("#salleDiscussion_active").hide();
+	
+	jQuery("#btnSallesTous").click(function(){
+		jQuery("#salleDiscussion_fini").hide();
+		jQuery("#salleDiscussion_nonCommencee").hide();
+		jQuery("#salleDiscussion_active").hide();
+		jQuery("#salleDiscussion_tous").show('slow');
+	});		
+	jQuery("#btnSallesTerminees").click(function(){
+		jQuery("#salleDiscussion_tous").hide();
+		jQuery("#salleDiscussion_nonCommencee").hide();
+		jQuery("#salleDiscussion_active").hide();
+		jQuery("#salleDiscussion_fini").show('slow');
+	});		
+	jQuery("#btnSallesNonCommencees").click(function(){
+		jQuery("#salleDiscussion_fini").hide();
+		jQuery("#salleDiscussion_tous").hide();
+		jQuery("#salleDiscussion_active").hide();
+		jQuery("#salleDiscussion_nonCommencee").show('slow');
+	});
+	jQuery("#btnSallesEnCours").click(function(){
+		jQuery("#salleDiscussion_fini").hide();
+		jQuery("#salleDiscussion_tous").hide();
+		jQuery("#salleDiscussion_nonCommencee").hide();
+		jQuery("#salleDiscussion_active").show('slow');
+	});	
+});
