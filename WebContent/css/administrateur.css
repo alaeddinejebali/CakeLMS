@@ -1,0 +1,14 @@
+#btn_ajouterFormation{
+	background-image: url('../images/img/add.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 128px;
+	width: 156px;
+	margin: 0 auto;
+	line-height: 122px;
+	font-size: 18px;
+	padding-left: 37px;
+}
+#admin_accueil_listeDesFormation a:first-child{
+	text-decoration: none;
+}

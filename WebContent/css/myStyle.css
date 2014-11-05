@@ -1,0 +1,103 @@
+/********************************************************/
+/*********************_DHEKRA STYLE_*********************/
+/********************************************************/
+.tac{text-align: center; }
+.fl{float: left;}
+.cb{clear: both;}
+.w100{width: 100%;}
+.pt20{padding-top: 20px;}
+.d_title{color: #235688; text-shadow: 5px 2px 5px #999999; text-transform: uppercase;}
+.footer{z-index: -10;}
+#affecterModulesForm #categorie_chzn{font-size: 18px;}
+#dyntable_paginate a{text-decoration: none !important;}
+#ajouterFormationForm .selector, #ajouterCategorieForm .selector, #ajouterApprenantForm .selector, #assignerApprenantsGroupeForm .selector, #affecterTuteursForm .selector, #affecterApprenantsFormationsForm .selector, #affecterGroupesFormationsForm .selector, #ajouterRessourceCoursTextForm .selector{width: 496px;}
+#admin_affecterCategories{width: 470px; margin: 0 auto;}
+.thumbnailPhoto{width:64px; height: 64px; margin: 15px auto 5px auto;}
+#aThumbnailPhoto{height: 139px}
+.detailsUserPhone{width: 172px; margin: 0 auto; padding: 5px 0px 20px 37px; background: url('../images/img/mobile.png') no-repeat}
+.detailsUserPhoto{width: 100%;}
+#affecterCategoriesForm .stdformbutton{text-align: center;}
+#ajouterFormationForm .btn-primary , #affecterCategoriesForm .btn-primary, #ajouterCategorieForm .btn-primary, #ajouterModuleForm .btn-primary, #affecterModulesForm .btn-primary, #ajouterApprenantForm .btn-primary, .detailsUser .btn, #ajouterGroupeForm .btn-primary, #assignerApprenantsGroupeForm .btn-primary, #affecterTuteursForm .btn-primary, #affecterApprenantsFormationsForm .btn-primary, #affecterGroupesFormationsForm .btn-primary, #envoyerMessageForm .btn-primary, #ajouterRessourceCoursTextForm .btn-primary, #ajouterRessourceCoursAudioForm .btn-primary, #ajouterRessourceCoursVideoForm .btn-primary, #ajouterSalleFormationForm .btn-primary{height: 50px; font-size: 18px; padding-left: 25px; padding-right: 25px;}
+.detailsUser .btn{padding-top: 20px;}
+.detailsUser a{font-size: 20px;}
+.detailsUser h3{font-size: 25px;}
+.dl-horizontal dt, dd{font-size: 18px; line-height: 35px}
+form label, .controls input, .controls span{font-size: 18px;}
+#allCategories option, #allModules option, #dualselect option{font-size: 18px; padding-bottom: 15px}
+.adminDernieresInscriptionsThumbnail img:HOVER{opacity: 0.5;transform:rotate(2deg); -ms-transform:rotate(2deg); -webkit-transform:rotate(2deg);}
+.adminDernieresInscriptionsThumbnail ._thumbnail{float: left; width: 70px;}
+.adminDernieresInscriptionsThumbnail ._thumbnail img{width: 100%; border-radius: 5px 15px 5px 15px;}
+.adminDernieresInscriptionsThumbnail ._nom{float: left; font-size: 16px; font-weight: bold; line-height: 27px; margin-left: 10px; margin-top: 23px;}
+.error{color: #ff0000 !important;}
+.detailsMessage{font-size: 18px; line-height: 35px;}
+.detailsMessage p{padding-top: 10px; color: #000;}
+.alert ul{padding-left: 40px;}
+#hiddenDualSelect{width: 0; height: 0; opacity: 0;}
+.choixTypeRessource{padding: 10px; text-transform: uppercase; cursor: pointer; border-radius: 0 30px;}
+.choixTypeRessource:hover{background-color: #CCCCCC;}
+.listWithSearch{width: 542px;}
+.choixQuestion{cursor: pointer; padding: 10px 0; text-align: center;}
+.choixQuestion img{margin: 0 auto;}
+.choixQuestion p{font-size: 15px; font-weight: bold; padding: 15px 0;}
+.choixQuestion:hover, .activeQuestion{border: solid #FF6600 3px; border-radius: 5px;}
+.btnRemoveQuestion{cursor: pointer;}
+
+#ajouterSalleFormationForm .chzn-container{width: 541px !important;}
+#ajouterSalleFormationForm  .dualselect select {width: 541px;}
+#ajouterSalleFormationForm  .dualselect select:last-child{margin-left: 223px;}
+#ajouterSalleFormationForm  .dualselect .ds_arrow {padding-top: 10px; padding-bottom: 10px; position: relative; width: 95%; float: left; text-align: center;}
+#ajouterSalleFormationForm  .dualselect .ds_arrow button {transform:rotate(90deg);-ms-transform:rotate(90deg); /* IE 9 */-webkit-transform:rotate(90deg); }
+#ajouterSalleFormationForm  .dualselect .ds_arrow button:FIRST-CHILD {margin:  0 0 13px 1px;}
+#ajouterSalleFormationForm  #tempsDebut, #ajouterSalleFormationForm  #tempsFin{width: 515px;}
+
+.sallediscussion_menu{display: inline-flex; padding-bottom: 25px;}
+.sallediscussion_menu > li{padding-right: 20px;}
+
+.tuteurRessourcesFilter{margin-bottom: 15px;}
+.tuteurRessourcesFilter span{color: #222425; cursor: pointer; font-size: 16px; padding: 0 5px;}
+.tuteurRessourcesFilter_active{color: #235688 !important; text-decoration: underline; font-weight: bold;}
+.row_ressource{padding: 17px 0; border-bottom: 1px dotted #ddd;}
+
+
+/***** MEDIA QUERIES *****/
+/*************************/
+
+@media screen and (max-width: 1280px) {
+	#ajouterSalleFormationForm .chzn-container{width: 541px !important;}
+	#ajouterSalleFormationForm  .dualselect select {width: 541px;}
+	#ajouterSalleFormationForm  .dualselect select:last-child{margin-left: 223px;}
+	#ajouterSalleFormationForm  .dualselect .ds_arrow {padding-top: 10px; padding-bottom: 10px; position: relative; width: 95%; float: left; text-align: center;}
+	#ajouterSalleFormationForm  .dualselect .ds_arrow button {transform:rotate(90deg);-ms-transform:rotate(90deg); /* IE 9 */-webkit-transform:rotate(90deg); }
+	#ajouterSalleFormationForm  .dualselect .ds_arrow button:FIRST-CHILD {margin-bottom: 12px;}
+	#ajouterSalleFormationForm  #tempsDebut, #ajouterSalleFormationForm  #tempsFin{width: 100%;}
+	#ajouterSalleFormationForm  .dualselect select:last-child{margin-left: 0;}
+}
+
+/* iPad Portrait */
+@media screen and (max-width: 959px) {
+	#ajouterSalleFormationForm .chzn-container{width: 100% !important;}
+}
+
+/* iPhone Landscape */
+@media screen and (max-width: 767px) {
+	#ajouterSalleFormationForm .chzn-container{width: 100% !important;}
+}
+
+@media screen and (max-width: 479px) {
+	#ajouterFormationForm .selector, #ajouterCategorieForm .selector, #ajouterApprenantForm .selector, #assignerApprenantsGroupeForm .selector, #affecterTuteursForm .selector, #affecterApprenantsFormationsForm .selector, #affecterGroupesFormationsForm .selector, #ajouterSalleFormationForm .selector{width: 97%;}
+	#ajouterFormationForm .btn, #ajouterCategorieForm .btn, .detailsUser .btn, #ajouterGroupeForm .btn-primary, #assignerApprenantsGroupeForm .btn-primary, #affecterTuteursForm .btn-primary, #affecterApprenantsFormationsForm .btn-primary, #affecterGroupesFormationsForm .btn-primary, #envoyerMessageForm .btn-primary, #ajouterRessourceCoursTextForm .btn-primary, #ajouterRessourceCoursAudioForm .btn-primary, #ajouterRessourceCoursVideoForm .btn-primary, #ajouterSalleFormationForm .btn, #ajouterSalleFormationForm .btn-primary{width: 100%;}
+	.detailsUser .btn{padding-left: 0px; padding-right: 0px;}
+	.detailsUser .btn:FIRST-CHILD{margin-bottom: 7px;}
+	#admin_affecterCategories{width: 100%;}
+	#ajouterApprenantForm .input-append{width: 47%;}
+	.dualselect select {width: 100%; }
+	.dualselect .ds_arrow {padding-top: 10px; padding-bottom: 10px; position: relative; left: 38%;}
+	.dualselect .ds_arrow button {transform:rotate(90deg);-ms-transform:rotate(90deg); /* IE 9 */-webkit-transform:rotate(90deg); /* Safari and Chrome */}
+	#admin_affecterCategories, #affecterCategoriesForm .btn, #ajouterModuleForm .btn, #affecterModulesForm .btn, #ajouterApprenantForm .btn, #envoyerMessageForm .btn{width: 100%}
+	#ajouterSalleFormationForm .chzn-container{width: 100% !important;}
+	.dataTables_length{padding-top: 75px; text-align: center;}
+	.dataTables_filter{left: 15%;}
+	.dernierTuteursInscrits{padding-top: 30px;}
+	.listWithSearch{width: 98%;}
+}
+

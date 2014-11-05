@@ -1,0 +1,203 @@
+._pp_frame {
+	border: 1px solid #999;
+	background-color: #EEE;
+	padding: 3px;
+}
+
+._pp_frame_small {
+	border: 1px solid #999;
+	background-color: #EEE;
+	padding: 2px;
+	font-size: 11px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+._pp_frame_small input,
+._pp_frame_small button,
+._pp_frame_small select,
+._pp_frame_small td, {
+	font-size: 11px;
+}
+
+._pp_flush {
+	padding: 0;
+}
+
+._pp_dialog {
+	border: 2px solid #DDD;
+	background-color: #EEE;
+}
+
+._pp_title {
+	background-color: #4E799B;
+	color: #FFF;
+	padding: 3px;
+	font-weight: bold;
+}
+
+._pp_heading {
+	background-color: #FFF;
+	padding: 3px;
+	font-weight: bold;
+	border: 1px solid #999;
+}
+
+._pp_panel {
+	background-color: #FFF;
+}
+
+._pp_button {
+	border: 1px solid #999;
+	border-radius: 4px;
+	padding: 2px 8px;
+	background-color: #DDD;
+	cursor: pointer;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+._pp_button:hover {
+	background-color: #EEE;
+}
+
+._pp_disabled {
+	color: #999;
+}
+
+hr._pp_line {
+	height: 1px;
+	background-color: #999;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+._pp_highlight {
+	background-color: #B4CEFF;
+}
+
+._pp_small_text,
+._pp_small_text input,
+._pp_small_text select {
+	font-size: 10px;
+}
+
+._pp_inset {
+	border-top: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+}
+
+._pp_outset {
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+._pp_focused {
+	border: 1px dotted #999;
+}
+
+input[type=text]._pp_input,
+textarea._pp_input {
+}
+
+table._pp_table {
+	border-collapse: collapse;
+}
+
+table._pp_table th {
+}
+
+table._pp_table td {
+}
+
+table._pp_table td.odd {
+}
+
+table._pp_table td.even {
+}
+
+
+
+
+
+
+._pp_timepicker {
+	font-size: 16px;
+}
+._pp_timepicker td {
+	vertical-align: middle;
+}
+._pp_timepicker_input[type=text] {
+	border: 1px solid #999;
+	font-size: 16px;
+	width: 30px;
+	margin: 0 1px;
+	padding: 0;
+	text-align: center;
+}
+._pp_timepicker_down,
+._pp_timepicker_up {
+	cursor: pointer;
+	margin: 0 1px;
+	border: 1px solid #999;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 10px;
+}
+._pp_timepicker_up {
+	border-bottom: 0;
+	border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	background-image: url(arrow-up.gif);
+}
+._pp_timepicker_down {
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	background-image: url(arrow-down.gif);
+}
+._pp_timepicker_ampm {
+	border: 1px solid #999;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-size: 11px;
+	margin: 2px;
+	padding: 3px;
+	cursor: pointer;
+	font-weight: bold;
+}
+._pp_timepicker_active {
+	background-color: #999;
+	border-color: #666;
+	color: #FFF;
+}
+._pp_frame_small {
+    background-color: #EEEEEE;
+    border: 1px solid #999999;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 11px;
+    padding: 2px;
+}
+._pp_frame_small {
+    background-color: #EEEEEE;
+    border: 1px solid #999999;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 11px;
+    padding: 2px;
+}
+.timepicker{
+	background-image: url('clock.png');
+	background-color: rgb(255, 255, 255);
+	padding-right: 20px;
+	background-position: 100% 50%;
+	background-repeat: no-repeat no-repeat;
+}
