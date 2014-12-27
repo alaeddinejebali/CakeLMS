@@ -1,21 +1,21 @@
 package org.mlearning.dto.users;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.List;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorType;
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.DiscriminatorColumn;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.persistence.DiscriminatorType;
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.OneToMany;
 
 @Entity
@@ -39,7 +39,7 @@ public class User {
 	@OneToMany(mappedBy="user")
 	private List<Message> message;
 	//public static String myLocalPath = "/media/ajebali/Data/Dhekra/PFE m-learning/WebContent/assets/"; //Linux
-	public static String myLocalPath = "D:\\Personal\\PFE m-learning\\WebContent\\assets\\"; //Windows
+	public static String myLocalPath = "W:\\Personal projects\\Cake-LMS\\CakeLMS\\WebContent\\assets\\"; //Windows
 	
 	public String getPays() {
 		return pays;
