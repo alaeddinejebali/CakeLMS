@@ -2,7 +2,6 @@ package org.mlearning.business;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-
 import java.io.PrintWriter;
 
 import javax.imageio.ImageIO;
@@ -11,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -35,6 +35,8 @@ import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.output.*;
+
+import com.mysql.jdbc.log.Log;
 
 /**
  * Servlet implementation class AjouterApprenantServlet
