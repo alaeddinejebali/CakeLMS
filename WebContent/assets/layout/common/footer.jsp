@@ -1,8 +1,8 @@
 	<div class="clearfix"></div>
     
     <div class="footer">
-    	<div class="footerleft">M-Learning v1.0</div>
-    	<div class="footerright"><a href="#">Copyright 2013 &copy; WellDone - All rights reserved</a></div>
+    	<div class="footerleft">Cake-LMS v1.0</div>
+    	<div class="footerright">Copyright 2014 &copy; <a href="http://jebalialaeddine.com" target="_blank">Ala Eddine JEBALI</a> - All rights reserved</div>
     </div>
 
     
